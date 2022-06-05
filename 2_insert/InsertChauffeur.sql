@@ -7,5 +7,5 @@ INSERT INTO chauffeur(nom,prenom,cin,contact,email) VALUES('RAKOTONDRABE','Mahaz
     ('RAMALINGOM','Alexandre','102223031364','+261342606120','alexandre031@gmail.com'),
     ('ANDRIAMANORO','Dieu-Donné','102325531234','+261341234560','dieudonne@gmail.com'),
     ('RABE','Niaina','102860210247','+261332900320','niaina@gmail.com'),
-    ('ANDRIA','Marc','102256531234','+261321234521','marc@gmail.com'),
+    ('RANDRIA','Marc','102256531234','+261321234521','marc@gmail.com'),
 ;
