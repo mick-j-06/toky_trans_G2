@@ -1,4 +1,5 @@
-INSERT INTO ville(nom_ville) VALUES('antananarivo'),
+INSERT INTO ville(nom_ville) VALUES
+    ('antananarivo'),
     ('antsirabe'),
     ('ambatondrazaka'),
     ('antsiranana'),

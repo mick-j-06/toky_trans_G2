@@ -28,7 +28,7 @@ CREATE TABLE offre(
   label varchar(100) not null
 );
 
--- Table ville 
+-- Table ville
 CREATE TABLE ville(
     id_ville serial primary key,
     nom_ville varchar(100) not null
