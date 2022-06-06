@@ -9,4 +9,4 @@ INSERT INTO voyage(id_ville_depart,id_ville_arrivee,id_offre,date_voyage,heure_d
 
 --depart antananarivo -> mahajanga
 --offre province_simple
-    (1,6,3,'16-06-22','06:00:00',0,'5568TBD'),
+    (1,6,3,'16-06-22','06:00:00',0,'5568TBD');
