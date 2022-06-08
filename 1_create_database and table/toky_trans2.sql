@@ -62,7 +62,6 @@ CREATE TABLE reserver(
     place int not null, 
     montant_paye int check (montant_paye > 0) DEFAULT 0
 );
-
 -- Table conduire
 CREATE TABLE conduire(
     id_chauffeur int not null REFERENCES chauffeur(id_chauffeur) not null,
