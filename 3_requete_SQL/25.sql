@@ -1,0 +1,2 @@
+--le nombre de passagers ne faisant que la moitiée des voyages
+select client.id_client,montant_paye from client join reserver on client.id_client=reserver.id_client join voyage on reserver.id_voyage=voyage.id_voyage join offre on offre.id_offre=voyage.id_offre where montant_paye=tarif;
