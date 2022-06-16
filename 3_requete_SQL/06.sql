@@ -1,1 +1,2 @@
+--Liste des vehicules qui ont encore des places libre dans telle ville vers telle ville
 select matricule from vehicule Ve inner join voyage Vo on Vo.nb_place_dispo>0 and Ve.id_vehicule=Vo.id_vehicule and Vo.id_ville_depart=1 and Vo.id_ville_arrivee=2 ;

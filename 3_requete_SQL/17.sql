@@ -1,2 +1,0 @@
-select count(*),(count(*)%22) from reserver Re inner join voyage Vo on Re.id_voyage=Vo.id_voyage inner join ville Vi on Vo.id_ville_arrivee=Vi.id_ville 
-    where Vo.id_ville_arrivee=2 and Vo.date_voyage='2022-06-09';
