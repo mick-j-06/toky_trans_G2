@@ -1,1 +1,0 @@
-select tarif,label from offre;
