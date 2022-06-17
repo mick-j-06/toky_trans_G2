@@ -1,0 +1,2 @@
+--lister les vehicule qui part a un certain moment
+select vehicule.id_vehicule,matricule,heure_dep,date_voyage from vehicule join voyage on vehicule.id_vehicule=voyage.id_vehicule where heure_dep='07:00:00' and date_voyage='18-06-22';
