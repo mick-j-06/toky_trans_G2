@@ -1,4 +1,5 @@
-INSERT INTO vehicule(matricule,nb_place,status) VALUES ('2365TAB',20,'true'),
+INSERT INTO vehicule(matricule,nb_place,status) VALUES 
+    ('2365TAB',20,'true'),
     ('4253TAC',22,'true'),
     ('0314TBD',22,'true'),
     ('5568TBD',22,'false'),
